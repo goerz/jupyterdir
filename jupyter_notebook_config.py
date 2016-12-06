@@ -182,7 +182,7 @@
 #  platform dependent and determined by the python standard library `webbrowser`
 #  module, unless it is overridden using the --browser (NotebookApp.browser)
 #  configuration option.
-#c.NotebookApp.open_browser = True
+c.NotebookApp.open_browser = False
 
 ## Hashed password to use for web authentication.
 #  
@@ -191,10 +191,10 @@
 #    from notebook.auth import passwd; passwd()
 #  
 #  The string should be of the form type:salt:hashed-password.
-#c.NotebookApp.password = ''
+c.NotebookApp.password = 'sha1:f81c0742ba39:2d698fac6de51e39e0880cf83bf5b17b7a8f76fb'
 
 ## The port the notebook server will listen on.
-#c.NotebookApp.port = 8888
+c.NotebookApp.port = 47962
 
 ## The number of additional ports to try if the specified port is not available.
 #c.NotebookApp.port_retries = 50
