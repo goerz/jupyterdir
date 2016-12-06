@@ -5,7 +5,9 @@ This configuration goes into `~/.jupyter`. It handles the Jupyter Notebook, as
 well as jupyter (formerly ipython) console and qtconsole.
 
 Note that the IPython REPL and the IPython kernel still have additional
-configuration in    ~/.ipython`
+configuration in `~/.ipython`. Extensions are not part of the configuration. It
+is recommended to install notebook extensions (especially spell checking and
+TOC) from <https://github.com/ipython-contrib/jupyter_contrib_nbextensions>
 
 See the
 [Jupyter manual](https://jupyter.readthedocs.io/en/latest/projects/config.html)
