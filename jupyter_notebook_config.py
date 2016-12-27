@@ -84,6 +84,7 @@
 
 ## The notebook manager class to use.
 #c.NotebookApp.contents_manager_class = 'notebook.services.contents.filemanager.FileContentsManager'
+c.NotebookApp.contents_manager_class = 'notedown.NotedownContentsManager'
 
 ## Extra keyword arguments to pass to `set_secure_cookie`. See tornado's
 #  set_secure_cookie docs for details.
