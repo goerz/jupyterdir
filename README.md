@@ -14,3 +14,15 @@ See the
 for details. Also see the [Ipython to Jupyter Migration
 Guide](http://jupyter.readthedocs.io/en/latest/migrating.html) on how the
 Jupyter configuration relates to the older IPython
+
+
+The current configuration depends on the `notedown` and `nbdiff` packages. You
+should install this with
+
+    pip install notedown
+    pip install nbdiff
+
+before starting a notebook server.
+
+Notebooks can be further themed through the
+[`jupyterthemes` package](https://github.com/dunovank/jupyter-themes)
