@@ -1,4 +1,12 @@
 # Configuration file for jupyter-notebook.
+import os
+
+
+def get_pw(file):
+    file = os.path.expanduser(file)
+    with open(file) as in_fh:
+        return in_fh.read().strip()
+
 
 #------------------------------------------------------------------------------
 # Application(SingletonConfigurable) configuration
@@ -192,7 +200,7 @@ c.NotebookApp.open_browser = False
 #    from notebook.auth import passwd; passwd()
 #  
 #  The string should be of the form type:salt:hashed-password.
-c.NotebookApp.password = 'sha1:f81c0742ba39:2d698fac6de51e39e0880cf83bf5b17b7a8f76fb'
+c.NotebookApp.password = get_pw('~/.jupyter/password')
 
 ## The port the notebook server will listen on.
 c.NotebookApp.port = 47962
