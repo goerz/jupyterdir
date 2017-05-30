@@ -16,11 +16,12 @@ Guide](http://jupyter.readthedocs.io/en/latest/migrating.html) on how the
 Jupyter configuration relates to the older IPython
 
 
-The current configuration depends on the `notedown` and `nbdiff` packages. You
+The current configuration depends on the `notedown`, `nbdiff` and `nbdime` packages. You
 should install this with
 
     pip install notedown
     pip install nbdiff
+    pip install nbdime
 
 before starting a notebook server.
 
