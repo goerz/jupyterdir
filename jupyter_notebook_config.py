@@ -564,3 +564,19 @@ c.NotebookApp.port = 47962
 #  
 #  By default, all installed kernels are allowed.
 #c.KernelSpecManager.whitelist = set()
+
+#------------------------------------------------------------------------------
+# nbconvert from inside notebook
+#------------------------------------------------------------------------------
+
+# Note that these duplicate the settings in jupyter_nbconvert_config.py
+# They are used when calling nbconvert from inside the notebook interface
+# (File > Download as), while jupyter_nbconvert_config is used when calling
+# nbconvert directly on the command line
+
+custom_path = os.path.expanduser("~/.jupyter/nbconvert_templates")
+c.TemplateExporter.template_path.append(custom_path)
+c.LatexExporter.template_file = 'revtex'
+c.PDFExporter.latex_count = 3
+c.PDFExporter.template_file = 'revtex'
+c.PDFExporter.latex_command = ['xelatex', '{filename}']
