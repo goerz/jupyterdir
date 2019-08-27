@@ -234,6 +234,13 @@
             "selector": "body"
         },
         {
+            "command": "application:toggle-left-area",
+            "keys": [
+                "Accel Shift B"
+            ],
+            "selector": "body"
+        },
+        {
             "command": "application:toggle-mode",
             "keys": [
                 "Accel Shift D"
