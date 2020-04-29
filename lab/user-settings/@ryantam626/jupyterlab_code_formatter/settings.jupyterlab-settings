@@ -12,7 +12,7 @@
     // Config to be passed into black's format_str function call.
     "black": {
         "line_length": 79,
-        "string_normalization": true
+        "string_normalization": false
     },
 
     // FormatR Config
