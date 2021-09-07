@@ -1,5 +1,6 @@
 # Configuration file for jupyter-notebook.
 import os
+import random
 
 
 def get_pw(file):
@@ -203,7 +204,7 @@ c.NotebookApp.open_browser = False
 #c.NotebookApp.password = get_pw('~/.jupyter/password')
 
 ## The port the notebook server will listen on.
-c.NotebookApp.port = 47962
+c.NotebookApp.port = random.randint(10000, 65000)
 
 ## The number of additional ports to try if the specified port is not available.
 #c.NotebookApp.port_retries = 50
