@@ -1,8 +1,7 @@
 {
-  "NotebookApp": {
-    "nbserver_extensions": {
-      "jupyter_nbextensions_configurator": true,
-      "jupyterlab_code_formatter": true
+    "NotebookApp": {
+        "nbserver_extensions": {
+            "jupyter_nbextensions_configurator": true
+        }
     }
-  }
 }
