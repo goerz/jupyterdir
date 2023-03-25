@@ -1,0 +1,22 @@
+{
+    // Execute Time
+    // jupyterlab-execute-time:settings
+    // [missing schema description]
+    // ********************************
+
+    // Enabled
+    // Enable ExecuteTime cell extension
+    "enabled": true,
+
+    // Highlight
+    // Highlight the execution time on completion
+    "highlight": true,
+
+    // Minimum time to display (s)
+    // Minimum cell execution time in seconds to show timing info (0 means always)
+    "minTime": 0,
+
+    // Positioning
+    // How to position the execution time. Possible values are: "left", "right" or "hover".
+    "positioning": "right"
+}

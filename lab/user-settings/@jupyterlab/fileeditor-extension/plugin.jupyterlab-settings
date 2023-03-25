@@ -9,18 +9,20 @@
     // If `fontFamily`, `fontSize` or `lineHeight` are `null`,
     // values from current theme are used.
     "editorConfig": {
+        "autoClosingBrackets": false,
+        "codeFolding": false,
+        "cursorBlinkRate": 530,
         "fontFamily": null,
-        "fontSize": null,
+        "fontSize": 14,
+        "insertSpaces": true,
         "lineHeight": null,
         "lineNumbers": true,
         "lineWrap": "on",
-        "wordWrapColumn": 80,
+        "matchBrackets": true,
         "readOnly": false,
         "tabSize": 4,
-        "insertSpaces": true,
-        "matchBrackets": true,
-        "autoClosingBrackets": false,
         "rulers": [],
-        "codeFolding": false
+        "showTrailingSpace": false,
+        "wordWrapColumn": 80
     }
 }

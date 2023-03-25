@@ -1,0 +1,10 @@
+{
+    // RetroLab Top Area
+    // @retrolab/application-extension:top
+    // RetroLab Top Area settings
+    // ***********************************
+
+    // Top Bar Visibility
+    // Whether to show the top bar or not
+    "visible": false
+}
