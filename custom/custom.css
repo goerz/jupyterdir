@@ -1,0 +1,29 @@
+/*
+These settings are for `jupyter notebook` only. For `jupyter lab`, edit the theme CSS directly.
+See https://stackoverflow.com/questions/54589502
+*/
+
+@font-face {
+    font-family: JuliaMono-Light;
+    src: url("https://cdn.jsdelivr.net/gh/cormullion/juliamono/webfonts/JuliaMono-Light.woff2");
+}
+
+.rendered_html table{
+    font-size: 14px !important;
+}
+
+div.input_area {
+    font-size: 14px !important;
+}
+
+div.output_area pre{
+    font-size: 14px !important;
+    font-family: JuliaMono-Light;
+}
+
+.CodeMirror {
+    font-size: 14px !important;
+    font-family: "JuliaMono-Light" !important;
+    font-feature-settings: "zero", "ss01";
+    font-variant-ligatures: no-contextual;
+}
